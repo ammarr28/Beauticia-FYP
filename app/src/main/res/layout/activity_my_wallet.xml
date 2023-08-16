@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyWalletActivity"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/appred"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:backgroundTint="@color/white"
+                android:id="@+id/backs"
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="My Wallet"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"></TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:text="My Wallet"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/appred"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_marginTop="30dp"
+           android:layout_gravity="center"
+           android:layout_height="100dp"
+           android:src="@drawable/wallet"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Your Balance : "
+        android:textColor="@color/black"
+        android:textSize="23dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:text="000"
+            android:textColor="@color/appred"
+            android:textSize="33dp"
+            android:id="@+id/myamount"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

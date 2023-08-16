@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/service_menu"
+        android:title="Service"
+        android:icon="@drawable/service"></item>
+
+    <item android:id="@+id/saloon_menu"
+        android:title="All Saloons"
+        android:icon="@drawable/ic_baseline_other_houses_24"></item>
+    <item android:id="@+id/order_history"
+        android:title="Order History"
+        android:icon="@drawable/ic_baseline_history_24"></item>
+
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+
+
+        android:icon="@drawable/ic_baseline_logout_24"></item>
+
+
+
+
+
+
+
+
+
+
+
+</menu>

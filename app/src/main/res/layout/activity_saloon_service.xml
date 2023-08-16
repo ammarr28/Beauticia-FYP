@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaloonServiceActivity"
+    android:orientation="vertical">
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="Service List"
+        app:titleTextColor="#fff"
+        android:background="@color/appred"></androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Service List"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/appred"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/allservicelist"></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
